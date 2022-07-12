@@ -1,14 +1,31 @@
 body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: #dc899a;
+  background-color: #fbc4bf;
+}
+h2{font-size: 100%;
+background-color: #fffefa;
+margin: 5%;
+padding: 5%;
+border-style: solid;
+border-color: #fbc4bf;
 }
 
 header {
   text-align: center;
 }
+#heading{font-family: 'Times New Roman', Times, serif;
+font-size: 110%;
+background-color: #fffefa;}
 
 footer {
-  background-color: #343330;
+  background-color: #fffefa;
   text-align: center;
+}
+#sidebar{
+  width: 100%;
+  background-color: #fffefa ;
+}
+.nav-menu{
+  list-style-type: none;
 }
