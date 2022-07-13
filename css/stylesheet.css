@@ -1,21 +1,23 @@
-body{
+body {
   font-family: sans-serif;
-  font-size:110%;
+  font-size: 110%;
   background-color: #fbc4bf;
 }
-h2{font-size: 121%;
-font-family: 'Times New Roman', Times, serif;
-background-color: #fffefa;
-margin: 5%;
-padding: 5%;
 
+h2 {
+  font-size: 121%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fffefa;
+  margin: 5%;
+  padding: 5%;
+border-width: 1rem;
 }
 
-#ProfilePicture{
-width: 30%;
-height: 30%;
-border-radius: 100%;
-border: 3px burlywood solid;
+#ProfilePicture {
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  border: 3px burlywood solid;
 
 }
 
@@ -23,21 +25,34 @@ border: 3px burlywood solid;
 header {
   text-align: center;
 }
-#heading{font-family: 'Times New Roman', Times, serif;
-font-size: 110%;
-background-color: #fffefa;}
+
+#heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 110%;
+  background-color: #fffefa;
+}
 
 footer {
   background-color: #fffefa;
   text-align: center;
+  list-style-type: none;
+  height: auto;
+
 }
-#sidebar{
+
+#sidebar {
   width: 100%;
   background-color: #fffefa;
   padding-bottom: 1rem;
 }
 
-.nav-menu{
+.nav-menu {
   list-style-type: none;
   padding: 0;
+}
+
+.icons {
+  width: 3.5rem;
+  margin: 2.5rem;
+  height: auto;
 }
