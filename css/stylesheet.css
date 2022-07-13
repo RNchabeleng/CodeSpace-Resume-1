@@ -1,16 +1,19 @@
 body {
+  border: 5px solid #ffe6e9;
   font-family: sans-serif;
   font-size: 110%;
-  background-color: #fbc4bf;
+  background-color: white
+  display: flex;
+  flex-direction: column;
 }
 
-h2 {
-  font-size: 121%;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #fffefa;
-  margin: 5%;
-  padding: 5%;
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
 }
+
+
 ul{
   list-style-type: none;
 }
@@ -31,7 +34,7 @@ header {
 #heading {
   font-family: 'Times New Roman', Times, serif;
   font-size: 110%;
-  background-color: #fffefa;
+  background-color: #ffb6c1;
 }
 
 footer {
@@ -43,9 +46,9 @@ footer {
 }
 
 #sidebar {
-  width: 100%;
-  background-color: #fffefa;
-  padding-bottom: 1rem;
+  width: 50pc;
+  height: auto;
+  background-color: #ff7086;
 }
 
 .nav-menu {
