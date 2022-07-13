@@ -2,9 +2,10 @@ body {
   border: 5px solid #ffe6e9;
   font-family: sans-serif;
   font-size: 110%;
-  background-color: white
+  background-color: white;
   display: flex;
   flex-direction: column;
+  overflow: unset;
 }
 
 .main{
@@ -19,16 +20,16 @@ ul{
 }
 
 #ProfilePicture {
-  width: 30%;
-  height: 30%;
+  width: 15rem;
+  height: 10rem;
   border-radius: 100%;
-  border: 3px burlywood solid;
-
+  border: 3px #ff7086 solid;
 }
 
 
 header {
   text-align: center;
+  justify-content: center;
 }
 
 #heading {
@@ -38,7 +39,7 @@ header {
 }
 
 footer {
-  background-color: #fffefa;
+  background-color: #ffb6c1;
   text-align: center;
   list-style-type: none;
   height: auto;
@@ -46,7 +47,7 @@ footer {
 }
 
 #sidebar {
-  width: 50pc;
+  width: 25pc;
   height: auto;
   background-color: #ff7086;
 }
@@ -57,7 +58,7 @@ footer {
 }
 
 .icons {
-  width: 3.5rem;
+  width: 5rem;
   margin: 2.5rem;
   height: auto;
 }
