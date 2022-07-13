@@ -3,12 +3,20 @@ body{
   font-size:110%;
   background-color: #fbc4bf;
 }
-h2{font-size: 100%;
+h2{font-size: 121%;
+font-family: 'Times New Roman', Times, serif;
 background-color: #fffefa;
 margin: 5%;
 padding: 5%;
-border-style: solid;
-border-color: #fbc4bf;
+
+}
+
+#ProfilePicture{
+width: 30%;
+height: 30%;
+border-radius: 100%;
+border: 3px burlywood solid;
+
 }
 
 
@@ -25,8 +33,11 @@ footer {
 }
 #sidebar{
   width: 100%;
-  background-color: #fffefa ;
+  background-color: #fffefa;
+  padding-bottom: 1rem;
 }
+
 .nav-menu{
   list-style-type: none;
+  padding: 0;
 }
