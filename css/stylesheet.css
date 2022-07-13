@@ -10,7 +10,9 @@ h2 {
   background-color: #fffefa;
   margin: 5%;
   padding: 5%;
-border-width: 1rem;
+}
+ul{
+  list-style-type: none;
 }
 
 #ProfilePicture {
