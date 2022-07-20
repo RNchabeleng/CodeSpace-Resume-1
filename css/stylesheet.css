@@ -12,14 +12,18 @@ body {
 }
 
 h1 {
-  color: black;
+  font-size:xxx-large;
+  color: white;
   border-radius: 10px;
   padding: 5px;
   margin: 10px;
 }
+#AboutMe{
+  color: black;
+}
 
 h2 {
-  color: black;
+  color: white;
   padding: 10px;
   background-color: #ff7086;
 }
@@ -45,8 +49,8 @@ ul {
   border: 3px #ffb6c1 solid;
 }
 
-h1{
-padding: 25px;
+h1 {
+  padding: 25px;
 }
 
 header {
@@ -62,6 +66,7 @@ header {
 
 footer {
   font-size: x-large;
+  color: white;
   background-color: #ff7086;
   text-align: center;
   list-style-type: none;
@@ -75,8 +80,8 @@ footer {
 }
 
 .FirstMenu {
-background-color: #ffb6c1;
-text-align: center;
+  background-color: #ffb6c1;
+  text-align: center;
 }
 
 .nav-menu {
@@ -91,4 +96,16 @@ text-align: center;
   margin: 2.5rem;
   border-radius: 100%;
   height: auto;
+}
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: deeppink;
+}
+
+a:active{
+  color: deeppink;
 }
