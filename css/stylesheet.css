@@ -73,6 +73,7 @@ footer {
   height: auto;
 }
 
+
 #sidebar {
   width: 25pc;
   height: auto;
@@ -96,7 +97,16 @@ footer {
   margin: 2.5rem;
   border-radius: 100%;
   height: auto;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
 }
+
+.icons:hover img {
+  transform: rotateX(250);
+  filter: brightness(1.3);
+}
+
+
 
 a:link{
   color: blue;
