@@ -102,11 +102,15 @@ footer {
 }
 
 .icons:hover img {
-  transform: rotateX(250);
-  filter: brightness(1.3);
+  transform: scale(1);
+  filter: brightness(1.19);
+  transition: 1000ms;
 }
 
-
+.icons:hover span {
+  transform: translateY(-250px);
+  font-size: 25px;
+}
 
 a:link{
   color: blue;
