@@ -2,9 +2,7 @@ body {
   border: 5px solid #ffe6e9;
   font-family: sans-serif;
   font-size: 110%;
-  background: repeating-radial-gradient(circle, transparent, transparent 3.5px, rgba(251, 16, 54, 0.11) .5px, rgba(251, 16, 54, 0.11) 4.5px), repeating-radial-gradient(circle, transparent, transparent .5px, rgba(251, 16, 54, 0.11) 3.5px, rgba(251, 16, 54, 0.11) 4.5px), rgba(194, 243, 191, 0);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px, 20px 10px;
+  background-image: url(https://media.diy.com/is/image/Kingfisher/boutique-graphic-pink-geometric-smooth-wallpaper~5011583384659_36c?wid=284&hei=284);
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -107,11 +105,6 @@ footer {
   transition: 1000ms;
 }
 
-.icons:hover span {
-  transform: translateY(-250px);
-  font-size: 25px;
-}
-
 a:link{
   color: blue;
 }
@@ -122,4 +115,33 @@ a:hover{
 
 a:active{
   color: deeppink;
+}
+
+@media screen and (max-width: 480px) {
+  /*If the browser screen is 480px or less (for a Samsung A5 to S20 Smartphone)*/
+.body{
+  display: inline-table;
+  width: 45%;
+  height: auto;
+}
+.text{
+  font-size: 10vw;
+}
+}
+
+@media screen and (max-width 1200px) {
+  /*If the browser screen is 1200px or less (for a typical HP laptop*/
+.body{
+display: inline-block;
+width: fit-content;
+height: fit-content;
+}
+.text{
+  font-size: 25vw;
+}
+}
+
+@media screen and (max-width) {
+  /*If the broswer screen is 
+  
 }
