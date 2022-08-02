@@ -117,31 +117,36 @@ a:active{
   color: deeppink;
 }
 
-@media screen and (max-width: 480px) {
-  /*If the browser screen is 480px or less (for a Samsung A5 to S20 Smartphone)*/
+@media screen and (max-width: 1025px) {
+  /*If the browser screen is 1025px or less (For Laptops and desktops with smaller screens)*/
 .body{
-  display: inline-table;
-  width: 45%;
-  height: auto;
-}
-.text{
-  font-size: 10vw;
-}
-}
-
-@media screen and (max-width 1200px) {
-  /*If the browser screen is 1200px or less (for a typical HP laptop*/
-.body{
-display: inline-block;
-width: fit-content;
-height: fit-content;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
 }
 .text{
   font-size: 25vw;
 }
 }
 
-@media screen and (max-width) {
-  /*If the broswer screen is 
-  
+@media screen and (max-width 770px) {
+  /*If the browser screen is 770px or less (for a typical HP laptop)*/
+.body{
+display: inline-block;
+width: fit-content;
+height: fit-content;
+}
+.text{
+  font-size: 22vw;
+}
+}
+
+@media screen and (max-width 480px) {
+  /*If the broswer screen is 480px or less (For a Samsung A5 to S20)*/
+  .body{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    font-size: 10vw;
+  }
 }
