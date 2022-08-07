@@ -1,5 +1,5 @@
 body {
-  border: 5px solid #ffe6e9;
+  border: 10px solid #f49ea8;
   font-family: sans-serif;
   font-size: 110%;
   background-image: url(https://media.diy.com/is/image/Kingfisher/boutique-graphic-pink-geometric-smooth-wallpaper~5011583384659_36c?wid=284&hei=284);
@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: unset;
+  padding: 10px;
 }
 
 h1 {
@@ -44,7 +45,7 @@ ul {
   width: 10cm;
   height: 10;
   border-radius: 100%;
-  border: 3px #ffb6c1 solid;
+  border: 5px #ffb6c1 solid;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h1 {
 }
 
 header {
+  padding: 10px;
   text-align: center;
   justify-content: center;
 }
