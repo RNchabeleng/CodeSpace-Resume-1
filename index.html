@@ -163,13 +163,60 @@
                         src="images/GmailIcon.jfif" alt="Gmail Icon" </a>
                     <a class="icons" href="https://www.linkedin.com/in/reokeditswe-nchabeleng-16a78a139/"
                         target="_blank"><img class="icons" src="images/LinkedinLogo.png" alt="LinkedIn Icon" </a>
+
+                        <!--Section: Contact v.2-->
+                        <section class="mb-4">
+                            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please contact
+                                me directly. I will come back to you within a matter of hours to help you.</p>
+                            <div class="row">
+                                <div class="col-md-9 mb-md-0 mb-5">
+                                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="">Name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="">Email Address</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="subject" name="subject" class="form-control">
+                                                    <label for="subject" class="">Message</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+                                                <div class="md-form">
+                                                    <textarea type="text" id="message" name="message" rows="2"
+                                                        class="form-control md-textarea"></textarea>
+                                                    <label for="message">Your message</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="text-center text-md-left">
+                                        <a class="btn btn-primary"
+                                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                                    </div>
+                                    <div class="status"></div>
+                                </div>
+                        </section>
                         </footer>
             </div>
         </div>
     </div>
-
     </main>
-
+    
     <!-- jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -181,5 +228,4 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
         </script>
 </body>
-
 </html>
