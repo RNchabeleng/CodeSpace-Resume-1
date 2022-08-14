@@ -11,13 +11,14 @@ body {
 }
 
 h1 {
-  font-size:xxx-large;
+  font-size: xxx-large;
   color: white;
   border-radius: 10px;
   padding: 5px;
   margin: 10px;
 }
-#AboutMe{
+
+#AboutMe {
   color: black;
 }
 
@@ -73,15 +74,15 @@ footer {
   height: auto;
 }
 
-
 #sidebar {
-  width: 25pc;
+  width: 100%;
   height: auto;
-  background-color: #ffb6c1;
+  color: #ff7086;
+  position: center;
 }
 
 .FirstMenu {
-  background-color: #ffb6c1;
+  background-color: none;
   text-align: center;
 }
 
@@ -97,7 +98,7 @@ footer {
   margin: 2.5rem;
   border-radius: 100%;
   height: auto;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   overflow: hidden;
 }
 
@@ -107,45 +108,50 @@ footer {
   transition: 1000ms;
 }
 
-a:link{
+a:link {
   color: blue;
 }
 
-a:hover{
+a:hover {
   color: deeppink;
 }
 
-a:active{
+a:active {
   color: deeppink;
 }
 
 @media screen and (max-width: 1025px) {
+
   /*If the browser screen is 1025px or less (For Laptops and desktops with smaller screens)*/
-.body{
-  display: inline-block;
-  width: fit-content;
-  height: fit-content;
-}
-.text{
-  font-size: 25vw;
-}
+  .body {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .text {
+    font-size: 25vw;
+  }
 }
 
 @media screen and (max-width 770px) {
+
   /*If the browser screen is 770px or less (for a typical HP laptop)*/
-.body{
-display: inline-block;
-width: fit-content;
-height: fit-content;
-}
-.text{
-  font-size: 22vw;
-}
+  .body {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .text {
+    font-size: 22vw;
+  }
 }
 
 @media screen and (max-width 480px) {
+
   /*If the broswer screen is 480px or less (For a Samsung A5 to S20)*/
-  .body{
+  .body {
     display: block;
     width: fit-content;
     height: fit-content;
